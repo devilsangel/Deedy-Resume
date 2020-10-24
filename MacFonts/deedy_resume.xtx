@@ -66,8 +66,8 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\namesection{Debarghya}{Das}{ \urlstyle{same}\href{http://debarghyadas.com}{debarghyadas.com}| \href{http://fb.co/dd}{fb.co/dd}\\
-\href{mailto:deedy@fb.com}{deedy@fb.com} | 607.379.5733 | \href{mailto:dd367@cornell.edu}{dd367@cornell.edu}
+\namesection{Kevin}{Joseph}{ \urlstyle{same}\href{https://josephkevin.dev}{josephkevin.dev}| \href{https://www.linkedin.com/in/kevinjoseph95/}{linkedin.com/in/kevinjoseph95}\\
+\href{mailto:josephkevin1995@gmail.com}{josephkevin1995@gmail.com} | 516.395.5190 
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,8 +75,92 @@
 %     COLUMN ONE
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth} 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work Experience}
+\runsubsection{Legal \& General America}
+\descript{| Frontend Developer }
+\location{Oct 2018 - Present | Frederick, MD}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Contributing to developing a platform meant to speed up and automate the application and underwriting processes starting from a request for life insurance to the delivery of a policy to the customer.
+\item Engaged in the design of a rule engine driven online dynamic journey meant to replace a paper application process. 
+\item Contributed to the development of the above using the angular framework and helped create an application process which was 5x faster and had a 90\% completion rate.
+\item Repurposed the same application for use by interviewers running a tele-application process.
+\item Contributed to a dashboard-style angular application built for use by underwriters, case managers and agents, which resulted in faster review and approval of applications that needed additional review.
+\item Contributed to a dashboard-style angular application built for use by customers to keep them updated about the status of their application before it is approved and to manage their policy once it is approved.
+\item Contributed to containerization of development stack using docker which resulted in a more streamlined depolyment and release process.
+\item Actively participated in a company-wide IT transformation program.
+\item Actively helped the company migrate to an agile development methodology and collaborated with multiple teams over the course of 2 years.  
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{Qburst Technologies}
+\descript{| Frontend Developer }
+\location{June 2018 – Sept 2018 | Frederick, MD}
+\begin{tightemize}
+\item Contributed to improvement and maintenance of frontend projects for client, Legal \& General America.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Zoho Corporation}
+\descript{| Member Technical Staff}
+\location{July 2017 – March 2018 | Chennai, India}
+\begin{tightemize}
+\item Engaged in the early data modeling and API design of a new product, Zoho Contract Management.
+\item Implemented the model and APIs using PostgreSQL, Java and an internal zoho framework.
+\item Programmed an abstraction layer for integrating with another zoho service.
+\item Collaborated with a thirteen-member team in the aforementioned work.
+\end{tightemize}
+\sectionsep
+
+
+\section{Personal Projects}
+\runsubsection{Decision Making using Deep Reinforcement Learning}
+\location{2017}
+B.Tech. Major Project. An implementation of a paper by Deep Mind for decision making in complex systems by learning using a neural network.
+URL: https://arxiv.org/abs/1312.5602.
+\sectionsep
+
+\runsubsection{Indoor Navigation}
+\location{2016}
+Collaborated and developed an indoor navigation system in a three member team as part of an internship at Sensomate systems.
+The system was based on BLE beacons and included an Android application as the user interface and an AngularJS based admin panel.
+\sectionsep
+
+\end{minipage}
 \begin{minipage}[t]{0.33\textwidth} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Technical Skills}
+\location{Proficient with:}
+Javascript \textbullet{}   Typescript \textbullet{} Angular 5/6/7/8 \textbullet{} HTML \textbullet{} CSS \textbullet{} SCSS \textbullet{} Redux \textbullet{} NgRx \textbullet{} RxJS \textbullet{} Git \textbullet{} Agile development \\ 
+\location{Familiar with:}
+Java \textbullet{} Android \textbullet{} Docker \textbullet{} C\# \textbullet{} C/C++ \textbullet{} Python \textbullet{} MySQL \textbullet{} Machine Learning \textbullet{} Linux \textbullet{} Shell \textbullet{} \LaTeX\
+\sectionsep
+
+\subsection{Soft Skills}
+Initiative \textbullet{}   Ownership \textbullet{} Communication \textbullet{} Trilingual \textbullet{} Public speaking\\ 
+\sectionsep
+
+\section{Certifications}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Scrum Alliance Certified Scrum Master 2018.
+\item Richard E. Merwin scholar 2016.
+\item Coursera Machine Learning by Andrew Ng with 97.6\% grade.
+\item Coursera Algorithmic Toolbox by UC San Diego with 100\% grade.
+\end{tightemize}
+\sectionsep
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     EDUCATION
@@ -84,76 +168,24 @@
 
 \section{Education} 
 
-\subsection{Cornell University}
-\descript{MEng in Computer Science}
-\location{Dec 2014 | Ithaca, NY}
+\subsection{College of Eng. TVM}
+\descript{B.tech in Computer Science}
+\location{July 2017 | Trivandrum, India}
 \sectionsep
 
-\subsection{Cornell University}
-\descript{BS in Computer Science}
-\location{May 2014 | Ithaca, NY}
-College of Engineering \\
-Magna Cum Laude\\
-\location{ Cum. GPA: 3.83 / 4.0 \\
-Major GPA: 3.9 / 4.0}
+\subsection{Methodist High School}
+\location{May 2013|  Kanpur, India}
 \sectionsep
 
-\subsection{La Martiniere for Boys}
-\location{Grad. May 2011|  Kolkata, India}
+
+\section{Fun Facts}
+\subsection{Intrests}
+Physics \textbullet{} Quantum Computing \textbullet{} Science Fiction \textbullet{} Economics \\ 
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     LINKS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Links} 
-Facebook:// \href{https://facebook/dd}{\bf dd} \\
-Github:// \href{https://github.com/deedydas}{\bf deedydas} \\
-LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\bf debarghyadas} \\
-YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\bf DeedyDash007} \\
-Twitter://  \href{https://twitter.com/debarghya_das}{\bf @debarghya\_das} \\
-Quora://  \href{https://www.quora.com/Debarghya-Das}{\bf Debarghya-Das}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     COURSEWORK
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Coursework}
-\subsection{Graduate}
-Advanced Machine Learning \\
-Open Source Software Engineering \\
-Advanced Interactive Graphics \\
-Compilers + Practicum \\
-Cloud Computing \\
-Evolutionary Computation \\
-Defending Computer Networks \\
-Machine Learning \\
+\subsection{Hobbies}
+Reading \textbullet{} Gaming\\ 
 \sectionsep
-
-\subsection{Undergraduate}
-Information Retrieval \\
-Operating Systems \\
-Artificial Intelligence + Practicum \\
-Functional Programming \\
-Computer Graphics + Practicum \\
-{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
-Unix Tools and Scripting \\
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     SKILLS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Skills}
-\subsection{Programming}
-\location{Over 5000 lines:}
-Java \textbullet{}   Shell \textbullet{} Python \textbullet{} Javascript \\
-OCaml \textbullet{} Matlab \textbullet{} Rails \textbullet{} \LaTeX\ \\ 
-\location{Over 1000 lines:}
-C \textbullet{} C++ \textbullet{} CSS \textbullet{} PHP \textbullet{} Assembly \\
-\location{Familiar:}
-AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
-\sectionsep
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %     COLUMN TWO
@@ -162,83 +194,5 @@ AS3 \textbullet{} iOS \textbullet{} Android \textbullet{} MySQL
 
 \end{minipage} 
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     EXPERIENCE
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Experience}
-\runsubsection{Facebook}
-\descript{| Software Engineer }
-\location{Jan 2015 - Present | New York, NY}
-\sectionsep
-
-\runsubsection{Coursera}
-\descript{| KPCB Fellow + Software Engineering Intern }
-\location{June 2014 – Sep 2014 | Mountain View, CA}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}\item 52 out of 2500 applicants chosen to be a KPCB Fellow 2014.
-\item Led and shipped Yoda - the admin interface for the new Phoenix platform. 
-\item Full-stack developer - Wrote and reviewed code for JS using Backbone, Jade, Stylus and Require and Scala using Play
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Google}
-\descript{| Software Engineering Intern }
-\location{May 2013 – Aug 2013 | Mountain View, CA}
-\begin{tightemize}
-\item Worked on the YouTube Captions team, in Javascript and Python to plan, to design and develop the full stack to add and edit Automatic Speech Recognition captions. In production.\item Created a backbone.js-like framework for the Captions editor.\end{tightemize}
-\sectionsep
-
-\runsubsection{Phabricator}
-\descript{| Open Source Contributor \& Team Leader}
-\location{Jan 2013 – May 2013 | Palo Alto, CA \& Ithaca, NY}
-\begin{tightemize}
-\item Phabricator is used daily by Facebook, Dropbox, Quora, Asana and more.\item I created the Meme generator and more in PHP and Shell.\item Led a team from MIT, Cornell, IC London and UHelsinki for the project.\end{tightemize}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Research}
-\runsubsection{Cornell Robot Learning Lab}
-\descript{| Researcher}
-\location{Jan 2014 – Jan 2015 | Ithaca, NY}
-Worked with \textbf{\href{http://www.cs.cornell.edu/~ashesh/}{Ashesh Jain}} and \textbf{\href{http://www.cs.cornell.edu/~asaxena/}{Prof Ashutosh Saxena}} to create \textbf{PlanIt}, a tool which  learns from large scale user preference feedback to plan robot trajectories in human environments.  
-\sectionsep
-
-\runsubsection{Cornell Phonetics Lab}
-\descript{| Head Undergraduate Researcher}
-\location{Mar 2012 – May 2013 | Ithaca, NY}
-Led the development of \textbf{QuickTongue}, the first ever breakthrough tongue-controlled game with \textbf{\href{http://conf.ling.cornell.edu/~tilsen/}{Prof Sam Tilsen}} to aid in Linguistics research. 
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Awards} 
-\begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-\end{tabular}
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     PUBLICATIONS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Publications} 
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
-
-\end{minipage} 
+ 
 \end{document}  \documentclass[]{article}
