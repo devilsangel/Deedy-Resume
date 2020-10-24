@@ -89,11 +89,11 @@
 \begin{tightemize}
 \item Contributing to developing a platform meant to speed up and automate the application and underwriting processes starting from a request for life insurance to the delivery of a policy to the customer.
 \item Engaged in the design of a rule engine driven online dynamic journey meant to replace a paper application process. 
-\item Contributed to the development of the above using the angular framework and helped create an application process which was 5x faster and had a 90\% completion rate.
+\item Contributed to the development of the above using the angular framework and helped create an application process that was 5x faster and had a 90\% completion rate.
 \item Repurposed the same application for use by interviewers running a tele-application process.
-\item Contributed to a dashboard-style angular application built for use by underwriters, case managers and agents, which resulted in faster review and approval of applications that needed additional review.
+\item Contributed to a dashboard-style angular application built for use by underwriters, case managers and agents. This created a easier and faster process for agents and underwritters to review applications that needed additional review.
 \item Contributed to a dashboard-style angular application built for use by customers to keep them updated about the status of their application before it is approved and to manage their policy once it is approved.
-\item Contributed to containerization of development stack using docker which resulted in a more streamlined depolyment and release process.
+\item Contributed to containerization of development stack using docker which resulted in a more streamlined deployment and release process.
 \item Actively participated in a company-wide IT transformation program.
 \item Actively helped the company migrate to an agile development methodology and collaborated with multiple teams over the course of 2 years.  
 \end{tightemize}
