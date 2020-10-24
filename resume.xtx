@@ -1,0 +1,198 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{resume}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\rfoot{Page \thepage \hspace{1pt}}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Kevin}{Joseph}{ \urlstyle{same}\href{https://josephkevin.dev}{josephkevin.dev}| \href{https://www.linkedin.com/in/kevinjoseph95/}{linkedin.com/in/kevinjoseph95}\\
+\href{mailto:josephkevin1995@gmail.com}{josephkevin1995@gmail.com} | 516.395.5190 
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work Experience}
+\runsubsection{Legal \& General America}
+\descript{| Frontend Developer }
+\location{Oct 2018 - Present | Frederick, MD}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Contributing to developing a platform meant to speed up and automate the application and underwriting processes starting from a request for life insurance to the delivery of a policy to the customer.
+\item Engaged in the design of a rule engine driven online dynamic journey meant to replace a paper application process. 
+\item Contributed to the development of the above using the angular framework and helped create an application process which was 5x faster and had a 90\% completion rate.
+\item Repurposed the same application for use by interviewers running a tele-application process.
+\item Contributed to a dashboard-style angular application built for use by underwriters, case managers and agents, which resulted in faster review and approval of applications that needed additional review.
+\item Contributed to a dashboard-style angular application built for use by customers to keep them updated about the status of their application before it is approved and to manage their policy once it is approved.
+\item Contributed to containerization of development stack using docker which resulted in a more streamlined depolyment and release process.
+\item Actively participated in a company-wide IT transformation program.
+\item Actively helped the company migrate to an agile development methodology and collaborated with multiple teams over the course of 2 years.  
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{Qburst Technologies}
+\descript{| Frontend Developer }
+\location{June 2018 – Sept 2018 | Frederick, MD}
+\begin{tightemize}
+\item Contributed to improvement and maintenance of frontend projects for client, Legal \& General America.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Zoho Corporation}
+\descript{| Member Technical Staff}
+\location{July 2017 – March 2018 | Chennai, India}
+\begin{tightemize}
+\item Engaged in the early data modeling and API design of a new product, Zoho Contract Management.
+\item Implemented the model and APIs using PostgreSQL, Java and an internal zoho framework.
+\item Programmed an abstraction layer for integrating with another zoho service.
+\item Collaborated with a thirteen-member team in the aforementioned work.
+\end{tightemize}
+\sectionsep
+
+
+\section{Personal Projects}
+\runsubsection{Decision Making using Deep Reinforcement Learning}
+\location{2017}
+B.Tech. Major Project. An implementation of a paper by Deep Mind for decision making in complex systems by learning using a neural network.
+URL: https://arxiv.org/abs/1312.5602.
+\sectionsep
+
+\runsubsection{Indoor Navigation}
+\location{2016}
+Collaborated and developed an indoor navigation system in a three member team as part of an internship at Sensomate systems.
+The system was based on BLE beacons and included an Android application as the user interface and an AngularJS based admin panel.
+\sectionsep
+
+\end{minipage}
+\begin{minipage}[t]{0.33\textwidth} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Technical Skills}
+\location{Proficient with:}
+Javascript \textbullet{}   Typescript \textbullet{} Angular 5/6/7/8 \textbullet{} HTML \textbullet{} CSS \textbullet{} SCSS \textbullet{} Redux \textbullet{} NgRx \textbullet{} RxJS \textbullet{} Git \textbullet{} Agile development \\ 
+\location{Familiar with:}
+Java \textbullet{} Android \textbullet{} Docker \textbullet{} C\# \textbullet{} C/C++ \textbullet{} Python \textbullet{} MySQL \textbullet{} Machine Learning \textbullet{} Linux \textbullet{} Shell \textbullet{} \LaTeX\
+\sectionsep
+
+\subsection{Soft Skills}
+Initiative \textbullet{}   Ownership \textbullet{} Communication \textbullet{} Trilingual \textbullet{} Public speaking\\ 
+\sectionsep
+
+\section{Certifications}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Scrum Alliance Certified Scrum Master 2018.
+\item Richard E. Merwin scholar 2016.
+\item Coursera Machine Learning by Andrew Ng with 97.6\% grade.
+\item Coursera Algorithmic Toolbox by UC San Diego with 100\% grade.
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{College of Eng. TVM}
+\descript{B.tech in Computer Science}
+\location{July 2017 | Trivandrum, India}
+\sectionsep
+
+\subsection{Methodist High School}
+\location{May 2013|  Kanpur, India}
+\sectionsep
+
+
+\section{Fun Facts}
+\subsection{Intrests}
+Physics \textbullet{} Quantum Computing \textbullet{} Science Fiction \textbullet{} Economics \\ 
+\sectionsep
+
+\subsection{Hobbies}
+Reading \textbullet{} Gaming\\ 
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+ 
+\end{document}  \documentclass[]{article}
